@@ -1,0 +1,1265 @@
+{
+"fr":{
+    "navbar":{
+        "title": "Services Numériques de la PLM",
+        "login": "Connexion"
+    },
+    "btnfav":{
+        "title": "Services favoris"
+    },
+    "changepassword":{
+        "title": "Changer son mot de passe",
+        "textS": "Vous avez perdu le mot de passe de votre compte PLM ou vous souhaitez le changer :",
+        "textL1": "Renseignez le formulaire ci-dessous avec votre identifiant PLM et votre adresse électronique de contact.",
+        "textL2": "Si vous ne connaissez pas ces informations, contactez votre correspondant Mathrice ou bien la personne qui a créé votre compte sur la PLM.",
+        "textL3": "Si vous ne savez pas à qui vous adresser, allez sur le lien contact en bas de cette page.",
+        "login": "Identifiant :",
+        "mail": "Mail PLM :",
+        "submit": "Envoyer",
+        "logmsg": "Le champ Identifiant est requis",
+        "mailmsg": "Le Champ Mail est requis ou invalide"
+    },
+    "valpass": {
+        "title": "Validation du mot de passe",
+        "name": "Nom :",
+        "firstname": "Prénom :",
+        "mail": "Mail :",
+        "login": "Identifiant :",
+        "text": "Votre mot de passe doit faire plus de 7 caractères avec au moins une majuscule, une minuscule, un nombre, et un caractère spécial de cette liste: !@#$%^&+=",
+        "password": "Mot de passe :",
+        "verify": "Vérification :",
+        "submit": "Envoyer"
+    },
+    "editprofil":{
+        "title": "Editer votre profil",
+        "textL1": "Nom:",
+        "textL2": "Affectation principale:",
+        "textL3": "Mail de contact:",
+        "textL4": "Identifiant PLM:",
+        "textL5": "Mail PLM:",
+        "emails": "Vos autres adresses électroniques",
+        "plmId": "Votre compte PLM",
+        "chgePass": "Changer votre mot de passe"
+    },
+    "chgecontactmail":{
+        "title": "Changer de mail de contact",
+        "text": "Êtes-vous sûr de vouloir changer votre mail principale par :",
+        "change": "Changer"
+    },
+    "deletemail":{
+        "title": "Supprimer une adresse éléctronique",
+        "text": "Êtes-vous sûr de vouloir suprimer l'adresse :",
+        "delete": "Supprimer"
+    },
+    "helpmail":{
+        "title": "Changer le mail de contact",
+        "text": "Vous pouvez changer le mail qui seras utiliser en priorité pour vous contacter"
+    },
+    "chgestate":{
+      "title": "Activer/Désactiver un service",
+      "ON": "Activer",
+      "OFF": "Désactiver"
+    },
+    "chgeshell":{
+        "title": "Changer de shell",
+        "text": "Êtes-vous sûr de vouloir changer votre shell par :",
+        "change": "Changer"
+    },
+    "manageaccounts":{
+      "unit": "Unité gérée",
+      "new":{
+        "title": "Intégrer une personne",
+        "search": "Rechercher",
+        "integrate": "Intégrer",
+        "placeholder": "3 caractères minimum",
+        "confirm": "Valider"
+      },
+      "edit":{
+        "edit": "Modifier un compte",
+        "delete":{
+          "title": "Retirer ce compte de cette unité",
+          "text": "Supprimer"
+        },
+        "move": "Déplacer",
+        "status":{
+          "title": "Changer le statut de ce compte (invité<->membre)",
+          "text": "Statut" 
+        },
+        "pending":{
+          "title": "Valider ou révoquer une demande de déplacement de compter",
+          "text": "En attente"
+        } 
+      }, 
+      "help": "Aide",
+      "filter": "Filtre",
+      "lastname": "Nom",
+      "firstname": "Prénom",
+      "login": "Identifiant",
+      "member":{
+        "text": "Statut",
+        "member": "Membre",
+        "guest": "Invité(e)",
+        "pending": "En attente"
+      },
+      "state":{
+        "text": "Etat du compte",
+        "active": "Actif",
+        "inactive": "Inactif"
+      },
+      "user": "Compte",
+      "mail": "Adresse de contact",
+      "mailpass": "Envoyer le formulaire de mot de passe (MdP perdu ou compte inactif)",
+      "mailplm": "Adresse PLM",
+      "shell": "Shell interactif",
+      "arrival": "Date d'arrivée",
+      "departure": "Date de départ",
+      "comments": "Commentaires",
+      "other": "Autres affectations",
+      "vpns": "VPNs",
+      "select": "-- Choisissez une unité --",
+      "btnuser": "Appliquer",
+      "alertmodif": "Modifications Appliquées"
+    },
+    "deleteaccount": {
+      "title": "Supprimer un compte",
+      "text": "Êtes-vous sûr de vouloir enlever de cette unité, le compte de :",
+      "delete": "Supprimer"
+    },
+    "chgestatusaccount": {
+      "title": "Changement de statut",
+      "text1": "Vous souhaitez demander une intégration de",
+      "text2": "en tant que membre de cette unité.",
+      "text3": "Cette personne aura ainsi un plein accès aux services du Portail, selon les autorisations de votre unité (accès aux revues par exemple).",
+      "text4": "Mais pour cela, elle doit quitter son affectation principale pour rejoindre votre unité.",
+      "text5": "Une demande dans ce sens va être envoyée au gestionnaire de son unité afin qu'il valide ou non votre demande.",
+      "chge": "Changer"
+    },
+    "moveaccount": {
+      "title": "Déplacer un compte",
+      "placeholder": "-- Choisissez une unité --",
+      "text": "Êtes-vous sûr de vouloir déplacer de cette unité, le compte de :",
+      "text2": "vers l'unité :",
+      "move": "Déplacer"
+    },
+    "pendingaccount": {
+      "title1": "Valider un déplacement de compte",
+      "title2": "Révoquer ma demande",
+      "text1": "Êtes vous sûr de vouloir valider la demande de déplacement du compte :",
+      "text2": "Êtes vous sûr de vouloir révoquer votre demande de déplacement du compte :",
+      "text3": "vers l'unité :",
+      "validate": "Valider",
+      "revoke": "Révoquer"
+    },
+    "savevpnunit": {
+      "title": "VPNs de votre Unité",
+      "titlechge": "Mise à jour du VPN :",
+      "save": "Sauvegarder"
+    },
+    "savevpnuser": {
+      "title": "VPNs de votre membre",
+      "titlechge": "Mise à jour VPN",
+      "save": "Sauvegarder"
+    },
+    "invitations": {
+      "title": "Invitations",
+      "login": "Identifiant :",
+      "lastname": "Nom :",
+      "firstname" :"Prénom :",
+      "mail": "Mail :",
+      "confirm": "Valider",
+      "titletext": "Pour remplir les champs ci-contre :",
+      "text1": "Il est important que ces informations soient justes, précises et fiables car ce sont les informations qui permettent ensuite de superviser le bon fonctionnement de la plate-forme et de limiter la présence de comptes en double.",
+      "text2": "Pour des raisons techniques, pour le nom et le prénom, seuls les caractères suivants sont acceptés :",
+      "text3": "lettres majuscules et minuscules non accentuées, espaces, -, _ et .",
+      "titletabs": [
+        "Comptes existants",
+        "Mes Invités"
+      ]
+    },
+    "invithelp":{
+      "title1": "À propos de l'invitation",
+      "title2": "Inviter une personne à partager les outils collaboratifs du portail",
+      "title3": "Comment inviter un collaborateur",
+      "text1": "Ce service vous permet d'inviter une personne n'appartenant pas à la communauté mathématique française sur la Plateforme en Ligne des Mathématiques (PLM). Une fois l'invitation validée par votre collaborateur, vous pourrez l'ajouter dans vos projets collaboratifs accessibles sur ce portail : PlmBox, SVN/GIT, Pad (à venir), ShareLaTex (à venir), etc.",
+      "text2": "Si la personne avec qui vous souhaitez collaborer est dans une unité de l'INSMI (permanent ou non), proposez-lui plutôt de se créer un compte sur ce portail (en cliquant sur Connexion puis Obtenir un compte sur la PLM accessible depuis son Profil).",
+      "text3": "A noter : ces comptes ne donnent pas accès aux documentations électroniques proposées sur ce site.",
+      "li1": "Le formulaire ci-dessus permet dans un premier temps de rechercher si votre futur collaborateur n'a pas déjà un accès valide.",
+      "li2": "Si ce n'est pas le cas, renseignez au plus juste son nom, prénom et email (de préférence institutionnel) et validez l'invitation.",
+      "li3": "Ensuite, cette personne devra accepter l'invitation reçue par email, choisir elle-même son identifiant et mot de passe.",
+      "li4": "Lorsque ceci sera fait, vous pourrez la retrouver (avec son identifiant) dans l'onglet Mes invités et utiliser son identifiant pour l'ajouter à vos projets."
+    },
+    "services":{
+        "plmsurvey": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article63",
+          "description": "Nouveau serveur : outil de génération d'enquêtes, sondages, formulaires d'évaluation",
+
+          "icon": "bars",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMsurvey",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmsurvey.math.cnrs.fr/admin"
+        },
+        "webconf": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article95",
+          "description": "Conférences web basées sur bigbluebutton ",
+
+          "icon": "camera",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMwebconf",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmwebconf.math.cnrs.fr"
+        },
+        "plmlab": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article85",
+          "description": "Forge fonctionnant sous gitlab",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMlab",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmlab.math.cnrs.fr"
+        },
+        "wims": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article69",
+          "description": "basé sur WIMS",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Serveur éducatif",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "http://wims.math.cnrs.fr/wims/"
+        },
+        "codimd": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article97",
+          "description": "Outil d’édition collaborative en ligne",
+
+          "icon": "pencil-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Pad CodiMD",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://codimd.math.cnrs.fr"
+        },
+
+        "invitation": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article77",
+          "description": "Créez un compte invité à vos collaborateurs extérieurs",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Invitations",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://portail.math.cnrs.fr/service/Guest"
+        },
+        "jetons": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article20",
+          "description": "Jetons pour les logiciels scientifiques",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "JETONS",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plm.math.cnrs.fr/doc/?article20"
+        },
+        "indico": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article65",
+          "description": "Outil de gestion de conférences, séminaires, groupes de travail, ...",
+
+          "icon": "bars",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Evènementiel INDICO",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://indico.math.cnrs.fr"
+        },
+        "initpass": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article54",
+          "description": "Envoi d'un formulaire de réinitialisation",
+
+          "icon": "lock",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Changer son mot de passe",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": ""
+        },
+        "listes": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article18",
+          "description": "Serveur de listes de diffusion multi-domaines",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Serveur de listes de diffusion (SYMPA)",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": false,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://listes.mathrice.fr/math.cnrs.fr"
+        },
+        "plmkan": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article89",
+          "description": "Outil collaboratif de planification et gestion de tâches",
+
+          "icon": "pencil-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMkan",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmkan.math.cnrs.fr"
+        },
+        "mattermost": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article16",
+          "description": "Créer vos groupes de discussion instantanée sur mattermost",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Messagerie instantanée",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://mattermost.math.cnrs.fr"
+        },
+        "disque": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article13",
+          "description": "Espace de partage accessible via HTTP, DAV, SCP, RSYNC, UNISON",
+          "icon": "cloud",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Disque Internet",
+          "properties": {
+            "activable": true,
+            "deactivable": true,
+            "public": true,
+            "textON": "Si vous activez ce service bla bla bla ...",
+            "textOFF": "Si vous désactivez ce service bla bla bla ..."
+          },
+          "url_admin": "",
+          "url_service": "https://plm.math.cnrs.fr/doc/?article13"
+        },
+        "hebergweb": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article32",
+          "description": "Héberger son site web ou ses pages professionnelles",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Hébergement web",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plm.math.cnrs.fr/doc/?article32"
+        },
+        "plmbox": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article66",
+          "description": "Espace de stockage partagé basé sur Seafile",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMbox",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmbox.math.cnrs.fr"
+        },
+        "rocketchat": {
+          "article_help": "",
+          "description": "Créer vos groupes de discussion instantanée sur RocketChat et inviter vos correspondants simplement",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Outil de discussions pour les équipes",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://rocketchat.math.cnrs.fr"
+        },
+        "mail": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article44",
+          "description": "adresse @math.cnrs.fr, accessible en imaps et via le webmail",
+
+          "icon": "envelope",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Courrier électronique",
+          "properties": {
+            "activable": true,
+            "deactivable": false,
+            "public": true,
+            "textON": "Si vous activez ce service bla bla bla ...",
+            "textOFF": "Si vous désactivez ce service bla bla bla ..."
+          },
+          "url_admin": "",
+          "url_service": "https://webmail.math.cnrs.fr"
+        },
+        "manageaccount": {
+          "article_help": "",
+          "description": "Gérez les comptes de vos Unités",
+
+          "icon": "cog",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Gestion des comptes",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": false,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "https://webmail.math.cnrs.fr/admin",
+          "url_service": "/manage_accounts"
+        },
+        "plmlatex": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article81",
+          "description": "Outil d’édition LaTeX en ligne",
+
+          "icon": "pencil-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMlatex",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmlatex.math.cnrs.fr"
+        },
+        "yquem": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article33",
+          "description": "Serveur Unix",
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Session Unix Interactive",
+          "properties": {
+            "activable": true,
+            "deactivable": true,
+            "public": true,
+            "textON": "Si vous activez ce service bla bla bla ...",
+            "textOFF": "Si vous désactivez ce service bla bla bla ..."
+          },
+          "url_admin": "",
+          "url_service": "https://portail.math.cnrs.fr/service/Account"
+        },
+        "plmshift": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article91",
+          "description": "Déploiement simplifié d’applications web (basé sur Openshift)",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMshift",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmshift.math.cnrs.fr"
+        },
+        "vpn": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article17",
+          "description": "Accès réseau élargi ",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "https://services.math.cnrs.fr/hub/vpn",
+            "text": "télécharger votre configuration ici"
+          },
+          "long_name": "Réseau privé virtuel (VPN)",
+          "properties": {
+            "activable": true,
+            "deactivable": true,
+            "public": false,
+            "textON": "Si vous activez ce service bla bla bla ...2",
+            "textOFF": "Si vous désactivez ce service bla bla bla ...2"
+          },
+          "url_admin": "",
+          "url_service": "https://plm-doc.math.cnrs.fr/doc/?article17"
+        }
+      }
+},
+"en":{
+    "navbar":{
+        "title": "PLM Digital Services",
+        "login": "Login"
+    },
+    "btnfav":{
+        "title": "Favorites services"
+    },
+    "changepassword":{
+        "title": "Change your password",
+        "textS": "You have lost your PLM account password or you want to change it:",
+        "textL1": "Fill in the form below with your PLM login and your email address.",
+        "textL2": "If you don't know this informations, contact your Mathrice contact or the person who created your PLM account.",
+        "textL3": "If you don't know who to contact, go to the contact link at the bottom of this page.",
+        "login": "Login :",
+        "mail": "PLM email :",
+        "submit": "Submit",
+        "logmsg": "The Login field is required",
+        "mailmsg": "The Email field is required or invalid"
+    },
+    "valpass": {
+        "title": "Password Validation",
+        "name": "Last name :",
+        "firstname": "First name :",
+        "mail": "Email :",
+        "login": "Login :",
+        "text": "Password should contain more than 7 characters with at least an uppercase, a lowercase, a number, and a special character from this list: !@#$%^&+=",
+        "password": "Password :",
+        "verify": "Verify :",
+        "submit": "Submit"
+    },
+    "editprofil":{
+        "title": "Edit your profile",
+        "textL1": "Name:",
+        "textL2": "Main assignment:",
+        "textL3": "Contact email:",
+        "textL4": "PLM Login:",
+        "textL5": "PLM Email:",
+        "emails": "Your other email addresses",
+        "plmId": "Your PLM count",
+        "chgePass": "Change your password"
+    },
+    "chgecontactmail":{
+        "title": "Change contact email",
+        "text": "Are you sure you want to change your main email to :",
+        "change": "Change it"
+    },
+    "deletemail":{
+        "title": "Delete an Email",
+        "text": "Are you sure you want to delete the email :",
+        "delete": "Delete"
+    },
+    "helpmail":{
+        "title": "Change contact Email",
+        "text": "You can change the email that will be used in priority to contact you"
+    },
+    "chgestate":{
+      "title": "Activate/Deactivate a service",
+      "ON": "Activate",
+      "OFF": "Desactivate"
+    },
+    "chgeshell":{
+        "title": "Change shell",
+        "text": "Are you sure you want to change your shell to :",
+        "change": "Change it"
+    },
+    "manageaccounts":{
+      "unit": "Managed unit",
+      "new":{
+        "title": "Integrate a person",
+        "search": "Search",
+        "integrate": "Integrate",
+        "placeholder": "Minimum 3 characters",
+        "confirm": "Confirm"
+      },
+      "edit":{
+        "edit": "Edit an account",
+        "delete":{
+          "title": "Remove this account from this unit",
+          "text":  "Delete"
+        },
+        "move": "Move",
+        "status":{
+          "title": "Change the status of this account (guest<->member)",
+          "text": "Status" 
+        },
+        "pending":{
+          "title": "Validate or revoke an account move request",
+          "text": "Pending"
+        } 
+      },
+      "help": "Help",
+      "filter": "Filter",
+      "lastname": "Lastname",
+      "firstname": "Firstname",
+      "login": "Login",
+      "member":{
+        "text": "Status",
+        "member": "Member",
+        "guest": "Guest",
+        "pending": "Pending"
+      },
+      "state":{
+        "text": "Account State",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "user": "Account",
+      "mail": "Contact email",
+      "mailpass": "Send password form (lost password or inactive account)",
+      "mailplm": "PLM email",
+      "shell": "Shell interactive",
+      "arrival": "Date of arrival",
+      "departure": "Departure date",
+      "comments": "Comments",
+      "other": "Other assignments",
+      "vpns": "VPNs",
+      "select": "-- Choose an unit --",
+      "btnuser": "Apply",
+      "alertmodif": "Applied Changes"
+    },
+    "deleteaccount": {
+      "title": "Remove an account",
+      "text": "Are you sure you want to remove from this unit, the account of:",
+      "delete": "Delete"
+    },
+    "chgestatusaccount": {
+      "title": "Change of status",
+      "text1": "You wish to request an integration of",
+      "text2": "as a member of this unit.",
+      "text3": "This person will then have full access to the services of the Portal, according to the authorizations of your unit (access to journals for example).",
+      "text4": "But for this to happen, they must leave their main assignment to join your unit.",
+      "text5": "A request to this effect will be sent to the manager of his or her unit so that he or she can validate or not your request.",
+      "chge": "Change"
+    },
+    "moveaccount": {
+      "title": "Move an account",
+      "placeholder": "-- Choose an unit --",
+      "text": "Are you sure you want to move from this unit, the account of :",
+      "text2": "to the unit :",
+      "move": "Move it"
+    },
+    "pendingaccount": {
+      "title1": "Validate an account move",
+      "title2": "Revoke my request",
+      "text1": "Are you sure you want to validate the request to move the account :",
+      "text2": "Are you sure you want to revoke your request to move the account :",
+      "text3": "to the unit :",
+      "validate": "Validate",
+      "revoke" :"Revoke"
+    },
+    "savevpnunit": {
+      "title": "Your Unit's VPNs",
+      "titlechge": "VPN Update",
+      "save": "Save"
+    },
+    "savevpnuser": {
+      "title": "Your member's VPNs",
+      "titlechge": "VPN Update",
+      "save": "Save"
+    },
+    "invitations": {
+      "title": "Invitations",
+      "login": "Login :",
+      "lastname": "Lastname :",
+      "firstname" :"Firstname :",
+      "mail": "Email :",
+      "confirm": "Confirm",
+      "titletext": "To fill in the fields opposite:",
+      "text1": "It is important that this information is accurate and reliable because it is the information that allows us to supervise the proper functioning of the platform and to limit the presence of duplicate accounts.",
+      "text2": "For technical reasons, only the following characters are accepted for the first and last names :",
+      "text3": "upper and lower case letters without accents, spaces, -, _ and .",
+      "titletabs": [
+        "Existing accounts",
+        "My guests"
+      ]
+    },
+    "invithelp":{
+      "title1": "About Invitation",
+      "title2": "Invite a person to share the collaborative tools of the portal",
+      "title3": "How to invite a collaborator",
+      "text1": "This service allows you to invite a person who does not belong to the French mathematical community to the Online Mathematics Platform (PLM). Once the invitation is validated by your collaborator, you will be able to add him/her to your collaborative projects accessible on this portal: PlmBox, SVN/GIT, Pad (coming soon), ShareLaTex (coming soon), etc.",
+      "text2": "If the person you wish to collaborate with is in an INSMI unit (permanent or not), suggest that he/she create an account on this portal instead (by clicking on Connection then Get an account on the PLM accessible from his/her Profile).",
+      "text3": "Please note: these accounts do not give access to the electronic documentation proposed on this site.",
+      "li1": "The form above allows you to check if your future collaborator does not already have a valid access.",
+      "li2": "If this is not the case, fill in the name, first name and email (preferably institutional) and validate the invitation.",
+      "li3": "Then, this person will have to accept the invitation received by email, choose his login and password.",
+      "li4": "Once this is done, you will be able to find them (with their login) in the My Guests tab and use their login to add them to your projects."
+    },
+    "services": {
+        "plmsurvey": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article63",
+          "description": "tool for generating surveys, polls, evaluation forms",
+
+          "icon": "bars",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMsurvey",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmsurvey.math.cnrs.fr/admin"
+        },
+        "webconf": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article95",
+          "description": "BigBlueButton Webconferences",
+
+          "icon": "camera",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMwebconf",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmwebconf.math.cnrs.fr"
+        },
+        "plmlab": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article85",
+          "description": "software development and version control using Gitlab",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMlab",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmlab.math.cnrs.fr"
+        },
+        "wims": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article69",
+          "description": "based on WIMS",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "learning management system",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "http://wims.math.cnrs.fr/wims/"
+        },
+        "codimd": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article97",
+          "description": "Online collaborative editing tool",
+
+          "icon": "pencil-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Pad CodiMD",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://codimd.math.cnrs.fr"
+        },
+
+        "invitation": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article77",
+          "description": "Create a guest account for your external collaborators",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Invitations",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://portail.math.cnrs.fr/service/Guest"
+        },
+        "jetons": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article20",
+          "description": "Tokens for scientific software",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "JETONS",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plm.math.cnrs.fr/doc/?article20"
+        },
+        "indico": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article65",
+          "description": "Management tool for conferences, seminars, working groups, ...",
+
+          "icon": "bars",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "INDICO",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://indico.math.cnrs.fr"
+        },
+        "initpass": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article54",
+          "description": "Sending a reset form",
+
+          "icon": "lock",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Change your Password",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": ""
+        },
+        "listes": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article18",
+          "description": "Multi-domain mailing list server",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Mailing List Server (SYMPA)",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": false,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://listes.mathrice.fr/math.cnrs.fr"
+        },
+        "plmkan": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article89",
+          "description": "Collaborative task planning and management tools (based on Wekan)",
+
+          "icon": "pencil-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMkan",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmkan.math.cnrs.fr"
+        },
+        "mattermost": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article16",
+          "description": "Create your chat groups on mattermost",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Instant messaging",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://mattermost.math.cnrs.fr"
+        },
+        "disque": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article13",
+          "description": "Sharing space accessible via HTTP, DAV, SCP, RSYNC, UNISON",
+          "icon": "cloud",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Internet Drive",
+          "properties": {
+            "activable": true,
+            "deactivable": true,
+            "public": true,
+            "textON": "Si vous activez ce service bla bla bla ...",
+            "textOFF": "Si vous désactivez ce service bla bla bla ..."
+          },
+          "url_admin": "",
+          "url_service": "https://plm.math.cnrs.fr/doc/?article13"
+        },
+        "hebergweb": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article32",
+          "description": "Hosting your website or professional pages",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Web Hosting",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plm.math.cnrs.fr/doc/?article32"
+        },
+        "plmbox": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article66",
+          "description": "Shared Storage based on Seafile",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMbox",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmbox.math.cnrs.fr"
+        },
+        "rocketchat": {
+          "article_help": "",
+          "description": "Create your chat groups on RocketChat and simply invite your contacts",
+
+          "icon": "share-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Discussion Tool for Teams",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://rocketchat.math.cnrs.fr"
+        },
+        "mail": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article44",
+          "description": "Address @math.cnrs.fr, accessible in imaps and via the webmail",
+
+          "icon": "envelope",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Email",
+          "properties": {
+            "activable": true,
+            "deactivable": false,
+            "public": true,
+            "textON": "Si vous activez ce service bla bla bla ...",
+            "textOFF": "Si vous désactivez ce service bla bla bla ..."
+          },
+          "url_admin": "",
+          "url_service": "https://webmail.math.cnrs.fr"
+        },
+        "manageaccount": {
+          "article_help": "",
+          "description": "Manage the accounts of your units",
+
+          "icon": "cog",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Manage Accounts",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": false,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "https://webmail.math.cnrs.fr/admin",
+          "url_service": "/manage_accounts"
+        },
+        "plmlatex": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article81",
+          "description": "Online LaTeX Editing Tool",
+
+          "icon": "pencil-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMlatex",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmlatex.math.cnrs.fr"
+        },
+        "yquem": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article33",
+          "description": "Interactive Unix Server",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "Interactive Unix Session",
+          "properties": {
+            "activable": true,
+            "deactivable": true,
+            "public": true,
+            "textON": "Si vous activez ce service bla bla bla ...",
+            "textOFF": "Si vous désactivez ce service bla bla bla ..."
+          },
+          "url_admin": "",
+          "url_service": "https://portail.math.cnrs.fr/service/Account"
+        },
+        "plmshift": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article91",
+          "description": "Simplified deployment of web applications (based on Openshift)",
+
+          "icon": "external-link-square-alt",
+          "link": {
+            "URL": "",
+            "text": ""
+          },
+          "long_name": "PLMshift",
+          "properties": {
+            "activable": false,
+            "deactivable": false,
+            "public": true,
+            "textON": "",
+            "textOFF": ""
+          },
+          "url_admin": "",
+          "url_service": "https://plmshift.math.cnrs.fr"
+        },
+        "vpn": {
+          "article_help": "https://plm-doc.math.cnrs.fr/doc/?article17",
+          "description": "Expanded network access ",
+          "url": "https://services.math.cnrs.fr/hub/vpn",
+          "icon": "share-alt",
+          "link": {
+            "URL": "https://services.math.cnrs.fr/hub/vpn",
+            "text": " download your configuration here"
+          },
+          "long_name": "Virtual Private Network (VPN)",
+          "properties": {
+            "activable": true,
+            "deactivable": true,
+            "public": false,
+            "textON": "If you activate this service bla bla bla ...2",
+            "textOFF": "If you deactivate this service bla bla bla ...2"
+          },
+          "url_admin": "",
+          "url_service": "https://plm-doc.math.cnrs.fr/doc/?article17"
+        }
+      }
+    }
+}
